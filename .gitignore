@@ -1,0 +1,9 @@
+# build_all.sh products (land next to the script / in tools/)
+*.exe
+*.dll
+*.o
+*.res
+build_all.log
+.build.*/
+# exception: vendor SDK capture = build INPUT (embedded resource of RC_GrandLocal.dll)
+!tools/sources/RC_GrandLocal_official.dll
